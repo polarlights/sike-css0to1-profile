@@ -31,8 +31,10 @@ body {
   display: block;
   width: 25%;
   margin: 0 auto;
-  border-radius: 999px;
-  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
   margin-top: -90px;
   margin-bottom: 10px;
+
+  border-radius: 999px;
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
