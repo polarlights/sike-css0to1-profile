@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/bg5.jpg);
+  background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font-weight: 300;
+  font-weight: 500;
 }
 .container {
   width: 960px;
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav ul li a {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
@@ -64,4 +64,37 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav ul li a:hover {
    text-decoration: underline;
+}
+
+section {
+  padding: 1px;
+  margin-top: -20px;
+}
+
+.info-section {
+  background-color: #fff;
+}
+
+ul.skill-list {
+}
+
+ul.skill-list li {
+  clear-fix: both;
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+.skill-code {
+   background-image: url(../img/skill-code.png);
+}
+
+.skill-design {
+  background-image: url(../img/skill-design.png);
+}
+
+.skill-product {
+  background-image: url(../img/skill-product.png);
 }
